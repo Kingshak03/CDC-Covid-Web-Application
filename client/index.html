@@ -1,0 +1,22 @@
+<html> 
+  <head>
+    <script src='ajax.js'></script>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  </head>
+
+  <body onload="getData();"> 
+    <h1>Vaccine Statistics</h1>
+  
+
+    <h2>Population that has been fully vaccinated</h2>
+    <div id="BarChart"></div></br>
+    <h2>Manufacturers Vaccine Administered</h2>
+    <div id="PieChart"></div></br>
+  
+    <h2>Fully vaccinated over time</h2>
+    <input type="text" id="locText"></input>
+    <button onclick="getLocData();">Plot It!</button></br>
+    <div id="LineChart"></div>
+  
+  </body>
+</html>
